@@ -9,16 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        secondary: "#ffea00",
+        secondary: "#a30796",
         darkBg: "#0f0f0f",
         lightBg: "#fafafa",
       },
-      backgroundImage:{
-        "gradient-cover":
-          "linear-gradient(90.21deg, rgba(70, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)"
+      backgroundImage: {
+        'gradient-cover': "radial-gradient(at bottom right, #0743a3, #000000)",
       },
     },
   },
   plugins: [],
 };
+
 export default config;

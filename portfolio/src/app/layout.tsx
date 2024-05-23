@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Urbanist, Kanit } from "next/font/google";
 import "./globals.css";
+import NavBar from "./components/NavBar";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 const kanit = Kanit({weight: "100", subsets: ['latin']});
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={kanit.className}>{children}</body>
+      <body className={kanit.className}>
+        <NavBar/>
+        {children}
+      </body>
     </html>
   );
 }

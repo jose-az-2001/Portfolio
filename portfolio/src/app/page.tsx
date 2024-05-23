@@ -1,11 +1,15 @@
-import Image from "next/image";
+// pages/index.js
+import CoverParticles from "./components/CoverParticles";
+import ProfileCard from "./components/ProfileCard";
 
 export default function Home() {
   return (
-    <main>
-      <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
-        <p>cover</p>
-        <p>introduccion</p>
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-cover">
+      <div className="absolute inset-0">
+        <CoverParticles />
+      </div>
+      <div className="relative z-10 w-full">
+        <ProfileCard />
       </div>
     </main>
   );
