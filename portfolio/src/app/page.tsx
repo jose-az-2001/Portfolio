@@ -1,5 +1,6 @@
 // pages/index.js
 import CoverParticles from "./components/CoverParticles";
+import NavBar from "./components/NavBar";
 import ProfileCard from "./components/ProfileCard";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="relative z-10 w-full">
         <ProfileCard />
       </div>
+      <NavBar/>
     </main>
   );
 }

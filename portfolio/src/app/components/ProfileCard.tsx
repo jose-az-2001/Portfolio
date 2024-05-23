@@ -21,13 +21,13 @@ export default function ProfileCard() {
           Soy estudiante de Ingeniería en Informática y Sistemas, actualmente en el último año. Trabajo en Dooply como ingeniero en sistemas y desarrollador backend.
         </p>
         <div className="mt-4 flex justify-center md:justify-start space-x-6">
-          <a href="mailto:josedanielxela@gmail.com" className="text-blue-500">
+          <a href="mailto:josedanielxela@gmail.com" className="text-secondary">
             <Mail size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/" className="text-blue-500">
+          <a href="https://www.linkedin.com/in/" className="text-secondary">
             <Linkedin size={24} />
           </a>
-          <a href="https://github.com/jose-az-2001" className="text-blue-500">
+          <a href="https://github.com/jose-az-2001" className="text-secondary">
             <Github size={24} />
           </a>
         </div>
