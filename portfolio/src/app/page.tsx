@@ -5,12 +5,12 @@ import ProfileCard from "./components/ProfileCard";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen w-full bg-gradient-cover">
-      <div className="relative inset-0 w-full flex flex-col items-center p-4 md:p-8">
-        <CoverParticles />
+    <main className="flex flex-col items-center justify-center min-h-screen w-full bg-gradient-cover relative pt-16 pb-16">
+      <CoverParticles />
+      <div className="flex flex-col items-center justify-center w-full p-4 md:p-8 relative z-10 mt-12">
         <ProfileCard />
-        <NavBar />
       </div>
+      <NavBar />
     </main>
   );
 }
