@@ -4,8 +4,8 @@ import { Mail, Linkedin, Github } from "lucide-react";
 
 export default function ProfileCard() {
   return (
-    <div className="w-full flex flex-col items-center md:flex-row md:items-start p-6 bg-white bg-opacity-15 rounded-lg shadow-md max-w-4xl mx-auto my-8">
-      <div className="flex-shrink-0 md:mr-6 p-4 relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48">
+    <div className="w-full max-w-4xl p-6 md:p-8 bg-white bg-opacity-15 rounded-lg shadow-md mx-auto my-8 flex flex-col items-center md:flex-row md:items-start md:space-x-6 mb-20 mt-36">
+      <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 mb-4 md:mb-0 mt-5">
         <Image
           src="/profile.jpg"
           alt="Profile Picture"
@@ -14,13 +14,13 @@ export default function ProfileCard() {
           className="rounded-full"
         />
       </div>
-      <div className="mt-4 md:mt-0 flex flex-col justify-center">
+      <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
         <h1 className="text-4xl font-bold text-gray-100">Hola! soy Jose Daniel Az Rios</h1>
         <h2 className="text-2xl text-gray-400 mt-2">Estudiante de Ingeniería en Sistemas y Desarrollador</h2>
-        <p className="mt-4 text-center md:text-left text-gray-300">
+        <p className="mt-4 text-gray-300">
           Soy estudiante de Ingeniería en Informática y Sistemas, actualmente en el último año. Trabajo en Dooply como ingeniero en sistemas y desarrollador backend.
         </p>
-        <div className="mt-4 flex justify-center md:justify-start space-x-6">
+        <div className="mt-4 flex space-x-6 md-8">
           <a href="mailto:josedanielxela@gmail.com" className="text-secondary">
             <Mail size={24} />
           </a>
