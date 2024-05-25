@@ -14,7 +14,7 @@ const config: Config = {
         lightBg: "#fafafa",
       },
       backgroundImage: {
-        'gradient-cover': "radial-gradient(at bottom right, #0743a3, #000000)",
+        'gradient-cover': "radial-gradient(at top right, #0743a3, #000000)",
       },
     },
   },

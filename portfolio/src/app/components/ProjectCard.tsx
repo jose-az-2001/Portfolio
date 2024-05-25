@@ -12,7 +12,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <h2 className="text-3xl font-semibold text-gray-100">{project.title}</h2>
       <p className="text-gray-300 mt-2">{project.description}</p>
       <Link href={`/my_projects/${project.id}`}>
-        <div className="text-secondary mt-4 cursor-pointer inline-block">Ver más</div>
+        <div className="text-gray-300 font-bold mt-4 cursor-pointer inline-block bg-white rounded-lg bg-opacity-25 hover:bg-secondary hover:text-white">Ver más</div>
       </Link>
     </div>
   );
