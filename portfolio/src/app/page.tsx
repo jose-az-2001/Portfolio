@@ -1,4 +1,3 @@
-// pages/index.js
 import CoverParticles from "./components/CoverParticles";
 import NavBar from "./components/NavBar";
 import ProfileCard from "./components/ProfileCard";
