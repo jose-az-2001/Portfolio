@@ -59,11 +59,11 @@ export const itemsNavbar = [
 export const projects = [
     {
         id: 1,
-        title: "Proyecto 1",
-        description: "Descripción del proyecto 1...",
-        role: "Mi rol en el proyecto 1...",
-        impact: "Impacto o resultado del proyecto 1...",
-        process: "Proceso de creación del proyecto 1...",
+        title: "POSify",
+        description: "POSify es un sistema de punto de venta, este inicialmetne se tenia pensado para la gestion de una ferreteria, luego al darnos cuenta de la flexibilidad que podia llegar a tenerl, decidimos modificarlo para tener una potente herramienta de punto de venta con manejo de inventarios y manejo de compras y ventas para una empresa",
+        role: "Mi rol en el proyecto fue ser uno de los desarrolladores de este sistema, al igual que planificar e l fluyo del proyecto y planficar la arquitectura junto con los demas involucrados",
+        impact: "Este proyecto nunca llego a presentarse a mas clientes, sin embargo por la arquitectura del mismo se espera retomarlo y amplairlo para comercializarlo en el futruro",
+        process: "",
         media: [
             { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
             { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
@@ -71,11 +71,11 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Proyecto 2",
-        description: "Descripción del proyecto 2...",
-        role: "Mi rol en el proyecto 2...",
-        impact: "Impacto o resultado del proyecto 2...",
-        process: "Proceso de creación del proyecto 2...",
+        title: "Sky-Kings",
+        description: "Un videojuego plataformero pensado para un curso de la universidad, este videojeugo tiene la premisa de ser un videojuego de plataformas, donde dos personakes luchan por llegar a la meta, tambien se tiene el acceso a golpes de los eprsonaejes con el bobjetivo de eprjudicar al contrincante, el primero en llegar a la menta seria el ganador de la ronda",
+        role: "Mi Rol en este proyecto fue ser uno de los desarroladores y dise;adpres del mismo juego",
+        impact: "Este proyecto no tuvo el impacto esperado ya que por cuestiones de timepo, y el proyecto ser tan ambicioso, este no pudo llevarse a cabo por completo, aun asi, fue decente en la presetnacion",
+        process: "",
         media: [
             { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
             { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
@@ -83,52 +83,17 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Proyecto 2",
-        description: "Descripción del proyecto 2...",
-        role: "Mi rol en el proyecto 2...",
-        impact: "Impacto o resultado del proyecto 2...",
-        process: "Proceso de creación del proyecto 2...",
+        title: "Bluelake by Dopoply",
+        description: "bluelake es un sistema de administracion empresarial, basadoe n rutas, donde las empresas tienenla capacidad de administrar todo el entorno de su empresa, desde el manejo de presonal o el manejo de sucursales por medio de inventarios, manejo de producto y finanzas de la empresa asi como ala facturacion",
+        role: "Mi rol en el proyecto ha sido principalemnte el desarrollo backend para el funcionamiento de este, sin embargo tambien me he involucrado en la parte frontend y en planificacion de la arquitectura del sistema",
+        impact: "este sistema ha tendio gran ipacto en el occidente del pais, siendo este ofrecido a varias empresas, actulemte cuenta con 15 empresas a nivel Guatemala que utilizan este sistema para la administracion de sus empresas",
+        process: "Por politicas de empresa, esta informacion es privada",
         media: [
             { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
             { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
         ],
     },
-    {
-        id: 4,
-        title: "Proyecto 2",
-        description: "Descripción del proyecto 2...",
-        role: "Mi rol en el proyecto 2...",
-        impact: "Impacto o resultado del proyecto 2...",
-        process: "Proceso de creación del proyecto 2...",
-        media: [
-            { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
-            { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
-        ],
-    },
-    {
-        id: 5,
-        title: "Proyecto 2",
-        description: "Descripción del proyecto 2...",
-        role: "Mi rol en el proyecto 2...",
-        impact: "Impacto o resultado del proyecto 2...",
-        process: "Proceso de creación del proyecto 2...",
-        media: [
-            { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
-            { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
-        ],
-    },
-    {
-        id: 6,
-        title: "Proyecto 2",
-        description: "Descripción del proyecto 2...",
-        role: "Mi rol en el proyecto 2...",
-        impact: "Impacto o resultado del proyecto 2...",
-        process: "Proceso de creación del proyecto 2...",
-        media: [
-            { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
-            { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
-        ],
-    },
+    
 ];
 
 export const experiences = [
