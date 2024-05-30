@@ -29,6 +29,8 @@ interface ApiResponse {
 import axios from "axios";
 import { parsedEnv } from "../env";
 import Link from "next/link";
+import NavBar from "../components/NavBar";
+import CoverParticles from "../components/CoverParticles";
 
 export default async function Home() {
   const response = await axios.get<ApiResponse>(`${parsedEnv.API_URL}/blog-posts`);
@@ -36,15 +38,17 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 md:p-8 bg-gradient-cover">
-      <h1 className="text-4xl font-bold text-gray-100 my-8">Mi blog</h1>
+      <CoverParticles />
+      <h1 className="text-4xl font-bold text-gray-100 my-2 w-full max-w-4xl p-6 bg-white bg-opacity-15 rounded-lg shadow-md mx-auto">Mi blog</h1>
       <div className="max-w-4xl w-full">
         {posts.map((post, index) => (
-          <div key={index} className="my-8">
-            <h2 className="text-2xl font-bold text-gray-200">{post.attributes.Title}</h2>
-            <p className="text-gray-300">{post.attributes.Content}</p>
+          <div key={index} className="my-8 w-full max-w-4xl p-6 bg-white bg-opacity-15 rounded-lg shadow-md mx-auto ">
+            <h2 className="text-3xl font-bold text-gray-200">{post.attributes.Title}</h2>
+            <p className="text-gray-100 text-xl">{post.attributes.Content}</p>
           </div>
         ))}
       </div>
+      <NavBar />
     </div>
   );
 }

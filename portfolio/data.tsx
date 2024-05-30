@@ -63,10 +63,10 @@ export const projects = [
         description: "POSify es un sistema de punto de venta, este inicialmetne se tenia pensado para la gestion de una ferreteria, luego al darnos cuenta de la flexibilidad que podia llegar a tenerl, decidimos modificarlo para tener una potente herramienta de punto de venta con manejo de inventarios y manejo de compras y ventas para una empresa",
         role: "Mi rol en el proyecto fue ser uno de los desarrolladores de este sistema, al igual que planificar e l fluyo del proyecto y planficar la arquitectura junto con los demas involucrados",
         impact: "Este proyecto nunca llego a presentarse a mas clientes, sin embargo por la arquitectura del mismo se espera retomarlo y amplairlo para comercializarlo en el futruro",
-        process: "",
+        process: "No disponible",
         media: [
-            { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
-            { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
+            { src: "/posify1.jpg", alt: "Vista del area de cotizaciones y ventas" },
+            { src: "/posify2.jpg", alt: "Vista de las tiendas disponibles" },
         ],
     },
     {
@@ -75,10 +75,10 @@ export const projects = [
         description: "Un videojuego plataformero pensado para un curso de la universidad, este videojeugo tiene la premisa de ser un videojuego de plataformas, donde dos personakes luchan por llegar a la meta, tambien se tiene el acceso a golpes de los eprsonaejes con el bobjetivo de eprjudicar al contrincante, el primero en llegar a la menta seria el ganador de la ronda",
         role: "Mi Rol en este proyecto fue ser uno de los desarroladores y dise;adpres del mismo juego",
         impact: "Este proyecto no tuvo el impacto esperado ya que por cuestiones de timepo, y el proyecto ser tan ambicioso, este no pudo llevarse a cabo por completo, aun asi, fue decente en la presetnacion",
-        process: "",
+        process: "se desarrollo con el objetivo de tener en cuenta los patrones de diseno al plantear una arquitectura adecuada para un videojuego, se planificaron las tareas, y cada uno de lso integrantes se enfoco en ciertas tareas, se utilizo python y pygame para poder manejar esto, pro medio de las fisicas y otras funciones ya preparadas comom movimientos y musica",
         media: [
-            { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
-            { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
+            { src: "/sk1.jpg", alt: "Proceso de desarrollo de funcionamieto" },
+            { src: "/sk2.png", alt: "Descripción de la imagen 2" },
         ],
     },
     {
@@ -89,8 +89,7 @@ export const projects = [
         impact: "este sistema ha tendio gran ipacto en el occidente del pais, siendo este ofrecido a varias empresas, actulemte cuenta con 15 empresas a nivel Guatemala que utilizan este sistema para la administracion de sus empresas",
         process: "Por politicas de empresa, esta informacion es privada",
         media: [
-            { src: "/profile.jpg", alt: "Descripción de la imagen 1" },
-            { src: "/profile.jpg", alt: "Descripción de la imagen 2" },
+            { src: "/bl1.jpeg", alt: "Dashboard" },
         ],
     },
     
